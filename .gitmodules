@@ -1,0 +1,10 @@
+[submodule "vendor/mongoose"]
+	path = vendor/mongoose
+	url = git://github.com/LearnBoost/mongoose.git
+[submodule "vendor/socket.io"]
+	path = vendor/socket.io
+	url = git://github.com/LearnBoost/Socket.IO-node.git
+[submodule "vendor/nodestream"]
+	path = vendor/nodestream
+	url = git://github.com/LearnBoost/nodestream.git
+
