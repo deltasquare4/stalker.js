@@ -1,7 +1,7 @@
 var driver = require('../../vendor/mongoose/mongoose').Mongoose;
-var db = driver.connect('mongodb://localhost/topics');
+var db = driver.connect('mongodb://localhost/stalkerjs');
 
-driver.model('Topics', {
+driver.model('Topic', {
   
   properties: ['title', 'description', 'posts_counter','creator', 'created_at', 'updated_at'],
 
@@ -17,4 +17,4 @@ driver.model('Topics', {
 
 });
 
-module.exports = db.model('Topics');
+module.exports = db.model('Topic');
